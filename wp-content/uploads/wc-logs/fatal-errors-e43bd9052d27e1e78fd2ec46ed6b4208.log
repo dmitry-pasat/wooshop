@@ -1,0 +1,11 @@
+2018-01-26T14:08:59+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents_count() in D:\realxampp\htdocs\wooshop\wp-content\themes\wootree\woocommerce\checkout\review-order.php:29
+Stack trace:
+#0 D:\realxampp\htdocs\wooshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(209): include()
+#1 D:\realxampp\htdocs\wooshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1623): wc_get_template('checkout/review...', Array)
+#2 D:\realxampp\htdocs\wooshop\wp-includes\class-wp-hook.php(286): woocommerce_order_review('')
+#3 D:\realxampp\htdocs\wooshop\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 D:\realxampp\htdocs\wooshop\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 D:\realxampp\htdocs\wooshop\wp-content\themes\wootree\woocommerce\checkout\form-checkout.php(61): do_action('woocommerce_che...')
+#6 D:\realxampp\htdocs\wooshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(209): include('D:\\realxampp\\ht...')
+#7 D:\realxampp\htdocs\wooshop\wp-co
+
